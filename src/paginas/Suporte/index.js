@@ -28,7 +28,6 @@ export default function Suporte() {
                         onChange={(e) => setNome(e.target.value)}
 
                     />
-
                     <View>
                         <TouchableOpacity>
                             <Text onPress={Precionar} style={estilo.botao}>
@@ -37,11 +36,8 @@ export default function Suporte() {
                         </TouchableOpacity>
 
                     </View>
-                   
-                  
                 </View>
-
-
+              
             </View>
         </ScrollView>
 

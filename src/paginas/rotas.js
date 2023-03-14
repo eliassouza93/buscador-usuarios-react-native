@@ -21,9 +21,7 @@ export default function Rotas() {
                     <Tab.Screen name='InfoRepositorio' component={InfoRepositorio} />
                     <Tab.Screen name='Repositorios' component={Repositorios} />
                     <Tab.Screen name='Suporte' component={Suporte} />
-                    
                 </Tab.Navigator>
-
             </NavigationContainer>
 
 
