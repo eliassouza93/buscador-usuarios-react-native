@@ -6,6 +6,7 @@ import Principal from './Principal'
 import CriarRepositorio from './CriarRepositorio'
 import InfoRepositorio from './InfoRepositorio'
 import Repositorios from './Repositorios'
+import Suporte from './Suporte'
 
 
 const Tab = createBottomTabNavigator()
@@ -20,6 +21,8 @@ export default function Rotas() {
                     <Tab.Screen name='CriarRepositorio' component={CriarRepositorio} />
                     <Tab.Screen name='InfoRepositorio' component={InfoRepositorio} />
                     <Tab.Screen name='Repositorios' component={Repositorios} />
+                    <Tab.Screen name='Suporte' component={Suporte} />
+                    
                 </Tab.Navigator>
 
             </NavigationContainer>
