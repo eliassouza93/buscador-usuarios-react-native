@@ -8,7 +8,6 @@ import InfoRepositorio from './InfoRepositorio'
 import Repositorios from './Repositorios'
 import Suporte from './Suporte'
 
-
 const Tab = createBottomTabNavigator()
 
 export default function Rotas() {
